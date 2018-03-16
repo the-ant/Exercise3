@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="250dp"
+    android:layout_height="260dp"
     android:background="@color/colorPrimaryLight"
     android:orientation="horizontal"
     android:paddingBottom="10dp"
@@ -15,7 +15,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:scaleType="centerCrop"
+        android:scaleType="centerInside"
         tools:src="@drawable/deadpool" />
 
     <RelativeLayout
@@ -48,7 +48,7 @@
             android:layout_below="@+id/movie_title"
             android:layout_marginTop="4dp"
             android:ellipsize="end"
-            android:maxLines="6"
+            android:maxLines="5"
             android:textColor="@color/colorTextOverview"
             android:textSize="18sp"
             tools:text="@string/test" />
