@@ -92,7 +92,7 @@ public class Result implements Serializable {
         this.title = title;
     }
 
-    public Double getPopularity() {
+    public double getPopularity() {
         return popularity;
     }
 

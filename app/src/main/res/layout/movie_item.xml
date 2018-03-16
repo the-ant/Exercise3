@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="250dp"
     android:background="@color/colorPrimaryLight"
     android:orientation="horizontal"
     android:paddingBottom="10dp"
@@ -15,6 +15,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:scaleType="centerCrop"
         tools:src="@drawable/deadpool" />
 
     <RelativeLayout
@@ -27,14 +28,11 @@
             android:id="@+id/movie_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             tools:text="The Rift" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/play_movie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

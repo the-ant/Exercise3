@@ -52,8 +52,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 .into(holder.poster);
         holder.title.setText(result.getTitle());
         holder.overview.setText(result.getOverview());
-        holder.itemView.setOnClickListener(v -> listener.onItemClick(result));
         holder.playMovie.setVisibility(result.getVideo() ? View.VISIBLE : View.GONE);
+        holder.itemView.setOnClickListener(v -> listener.onItemClick(result));
     }
 
     @Override
@@ -69,7 +69,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         @BindView(R.id.movie_overview)
         TextView overview;
         @BindView(R.id.play_movie)
-        ImageButton playMovie;
+        ImageView playMovie;
 
         public ViewHolder(View itemView) {
             super(itemView);
