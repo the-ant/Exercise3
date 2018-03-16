@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ExerciseWeek3</string>
+
+    <string name="test">Sơn Đẹp Trai, một bộ phim điện ảnh hài hước do Trương Quang Thịnh phụ trách sản xuất kể về cuộc đời của Sơn hay còn gọi là Sơn đẹp trai do bạn bè đặt cho, là một tay giang hồ quê mùa đã vô tình đem lòng say mê cô ca sĩ nổi tiếng do Lan Khuê thủ vai, được sự giúp đỡ của người bạn thân do danh hài Trường Giang đóng </string>
+    <string name="detail_release_date">Release Date: </string>
+</resources>
